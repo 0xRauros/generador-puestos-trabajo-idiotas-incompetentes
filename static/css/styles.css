@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Press+Start+2P&display=swap');
+
+
+body {
+    background: #1d1f20;
+    text-align: center;
+    padding: 60px;
+    font-family: sans-serif;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Lilita One', sans-serif;
+
+  }
+  
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+
+.purple {
+    color: rgb(145, 92, 182);;
+  }
+
+h1, h2 {
+    font-family: 'Lilita One', sans-serif;
+}
+
+
+#job-title {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(145, 92, 182);
+}
+
+.nav-buttons {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.nav-buttons:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.nav-buttons-active {
+    text-decoration: none;
+    background: rgb(145, 92, 182);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.nav-buttons-active:hover {
+    text-decoration: none;
+    background: rgb(145, 92, 182);
+    color: #FFFFFF;
+    font-weight: bold;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de puestos de trabajo para incompetentes</title>
+    <!-- Some bootsrap help :=) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link nav-buttons-active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link nav-buttons">About</a></li>
+          </ul>
+        </header>
+      </div>
+    
+    <main>
+        <section class="py-5 text-center container">
+            <div class="row py-lg">
+              <div class="col-lg-8 col-md-8 mx-auto text-white">
+                <h1><strong class="purple">GENERADOR DE PUESTOS DE TRABAJO</strong></h1>
+                <h1 class="text-white">
+                    PARA IDIOTAS INCOMPETENTES
+                </h1>
+                <p class="purple">(BETA)</p>
+                <hr>
+                <p class="lead">
+                    ¿Eres idiota?
+                </p>
+                <p class="lead">
+                    ¿Y además de idiota incompetente?
+                </p>
+                <p class="lead">
+                    ¿Te preocupa que en tu trabajo alguién descubra que no sabes hacer nada?
+                </p>
+
+                <p class="lead">
+                    ¡Tenemos la solución!
+                </p>
+
+                <p class="lead">
+                    Genera un nombre de puesto de trabajo con nuestra herramienta. 
+                    Utilizamos las últimas palabras de moda que nadie entiende, ¡Ni si quiera nosotros las entendemos!
+                    
+                </p>
+
+                <p class="pt-4">
+                    <a href="#" onclick="generateJobTitle()" class="button glow-button">Generar puesto</a>
+                </p>
+                <br>
+                <h2 class="text-white" id="job-title" style="visibility: hidden;"></h2>
+              </div>
+
+
+            </div>
+          </section>
+    </main>
+
+    <script src="generator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
